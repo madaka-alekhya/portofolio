@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+h1, h2 {
+    color: white;
+}
+.contactdetails{
+  color:white;
+  background-color: aqua;
+}
+.profile{
+    width:50px;
+    height: 20px;
+}
+.card {
+    margin-bottom: 20px;
+}
+
+.hero {
+    background: url('images/heroimg.jpeg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+}
+
+/* Contact Form Styles */
+form .form-row {
+    margin-bottom: 15px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Custom Styles for Mobile */
+@media (max-width: 768px) {
+    .hero {
+        text-align: center;
+    }
+}
